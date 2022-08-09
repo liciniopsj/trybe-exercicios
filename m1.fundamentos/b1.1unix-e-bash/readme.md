@@ -4,9 +4,9 @@ Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 
 #### Comandos utilizados:
 
-- ls     <!--listar arquivos e diretorios>
-- cd     <!--navegar por diretorios >
-- mkdir  <!---criar diretorios--->
+- ls     <!--listar arquivos e diretorios-->
+- cd     <!--navegar por diretorios-->
+- mkdir  <!--criar diretorios-->
 - touch  <!--criar arquivos-->
 - cp     <!--copiar arquivos>
 - mv     <!--mover e renomear arquivos >
