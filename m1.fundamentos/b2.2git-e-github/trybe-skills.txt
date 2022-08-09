@@ -1,10 +1,10 @@
 O que eu vou aprender na Trybe:
 
-- Unix
-- Bash
-- Git
-- HTML
-- CSS
-- C#
-- React
-- Java
+- Unix;
+- Bash;
+- Git;
+- HTML;
+- CSS;
+- C#;
+- React;
+- Java;
