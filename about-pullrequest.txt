@@ -1,0 +1,3 @@
+2.5 - Pull Request no GitHub
+Agora vamos aprender a como criar um Pull Request no GitHub. Esse processo é importante para você realizar sugestões e contribuir com alterações em um repositório, basta ter a permissão para leitura.
+A vantagem de se realizar o Pull Request é que você garante que a branch-padrão terá todo seu trabalho concluído e aprovado, realizando todas as novas alterações em uma branch separada.
