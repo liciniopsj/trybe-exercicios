@@ -6,8 +6,8 @@ Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 
 - ls     <!--listar arquivos e diretorios>
 - cd     <!--navegar por diretorios >
-- mkdir  <!---criar diretorios.--->
-- touch  <!--criar arquivos.-->
+- mkdir  <!---criar diretorios--->
+- touch  <!--criar arquivos-->
 - cp     <!--copiar arquivos>
 - mv     <!--mover e renomear arquivos >
 - rm     <!--remover arquivos>
