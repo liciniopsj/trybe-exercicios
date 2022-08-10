@@ -4,8 +4,8 @@ Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 
 ## Comandos utilizados:
 
-- ls<sup> -l -a</sup>     <!--listar arquivos e diretorios-->
-- cd     <!--navegar por diretorios-->
+- ls <sup> -l -a</sup>     <!--listar arquivos e diretorios-->
+- cd <sup>. .. ~ /</sup>    <!--navegar por diretorios-->
 - mkdir  <!--criar diretorios-->
 - touch  <!--criar arquivos-->
 - cp     <!--copiar arquivos-->
@@ -36,3 +36,5 @@ Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 - ^C
 - ^Z
 - &
+
+###### *Verifique o Source blob deste readme para mais informações. ;)
