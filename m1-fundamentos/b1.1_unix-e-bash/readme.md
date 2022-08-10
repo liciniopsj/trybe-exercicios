@@ -1,6 +1,6 @@
 # Principios de unix & Bash
 
-Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
+Os arquivos nesta pasta foram criados durante exercicios usando o terminal do Ubuntu.
 
 ## Comandos utilizados:
 
@@ -11,30 +11,30 @@ Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 - cp     <!--copiar arquivos-->
 - mv     <!--mover e renomear arquivos-->
 - rm     <!--remover arquivos-->
-- rmdir  <!--remover diretorios-->
+- rmdir <sup>-r</sup> <!--remover diretorios-->
 - cat    <!--exibir arquivos e editar de forma simples-->
-- less   <!--exibir partes de um arquivo-->
-- head   <!--exibir as primeiras linhas de um arquivo-->
-- sort   <!--organizar o conteudo de um arquivo-->
-- tail   <!--exibir as ultimas linhas de um arquivo-->
-- grep   <!--procura por palavras em um arquivo-->
-- wc     <!--conta linhas,caracteres e palavras em um arquivo-->
+- less  <sup>/"palavra" ^F ^W ! &"palavra"</sup> <!--exibir partes de um arquivo-->
+- head  <sup>-n</sup> <!--exibir as primeiras linhas de um arquivo-->
+- sort   <sup>-r</sup><!--organizar o conteudo de um arquivo-->
+- tail   <sup>-n</sup><!--exibir as ultimas linhas de um arquivo-->
+- grep   <sup>-v -c</sup><!--procura por palavras em um arquivo-->
+- wc     <sup>-c -m -l</sup><!--conta linhas,caracteres e palavras em um arquivo-->
 - man    <!--exibe o manual de um comando-->
-- chmod  <!--edita as permições de um arquivo-->
+- chmod  <sup>-R</sup><!--edita as permições de um arquivo-->
 - jobs   <!--lista processos suspensos ou que estao em segundo plano-->
 - ps     <!--lista processos-->
-- kill   <!--encerra processos-->
+- kill  <sup>-9</sup> <!--encerra processos-->
 - bg     <!--retorna processo suspenso para o background-->
 - fg     <!--reotnra processo suspenso para o foreground-->
 
 ### Outros comandos que interagem com comandos também foram utilizados, como:
 
-- ">"
-- "<"
-- ">>"
-- |
-- ^C
-- ^Z
-- &
+- ">"   <!--redireciona output para um arquivo-->
+- "<"   <!--redireciona input de um arquivo-->
+- ">>"  <!--anexa o output para um arquivo-->
+- |     <!--"canaliza" o output de um comando para o outro-->
+- ^C    <!--elimina trabalho em execução em primeiro plano-->
+- ^Z    <!--suspende trabalho em execução em segundo plano-->
+- &     <!--sinaliza um trabalho para ser executado em segundo plano-->
 
 ###### *Verifique o Source blob deste readme para mais informações. ;)
