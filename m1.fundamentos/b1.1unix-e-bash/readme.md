@@ -1,10 +1,10 @@
-## Principios de unix & Bash
+# Principios de unix & Bash
 
 Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 
-#### Comandos utilizados:
+## Comandos utilizados:
 
-- ls     <!--listar arquivos e diretorios-->
+- ls<sup> -l -a</sup>     <!--listar arquivos e diretorios-->
 - cd     <!--navegar por diretorios-->
 - mkdir  <!--criar diretorios-->
 - touch  <!--criar arquivos-->
@@ -27,7 +27,7 @@ Os arquivos nesta pasta foram criados usando o terminal do Ubuntu.
 - bg     <!--retorna processo suspenso para o background-->
 - fg     <!--reotnra processo suspenso para o foreground-->
 
-Outros comandos que interagem com comandos também foram utilizados, como:
+### Outros comandos que interagem com comandos também foram utilizados, como:
 
 - ">"
 - "<"
