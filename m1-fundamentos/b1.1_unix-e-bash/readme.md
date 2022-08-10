@@ -1,6 +1,6 @@
-# Principios de unix & Bash
+# Princípios de Unix & Bash
 
-Os arquivos nesta pasta foram criados durante exercicios usando o terminal Linux.
+Os arquivos nesta pasta foram criados durante exercícios usando o terminal Linux.
 
 ## Comandos utilizados:
 
