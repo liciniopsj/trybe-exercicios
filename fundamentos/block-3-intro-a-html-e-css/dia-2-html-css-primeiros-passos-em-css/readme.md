@@ -9,22 +9,4 @@ Proposta Para fixar:
 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo
 
 Html base: introcss.html
-
-
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <style></style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
-    </ul>
-  </body>
-</html>
+html modificado: introcssmod.html
