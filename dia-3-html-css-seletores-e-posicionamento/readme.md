@@ -1,5 +1,8 @@
 ### Html & CSS - Seletores e posicionamento
 
+#### Exercicios ' Para Fixar '
+
+
 1 - Box Model
 
 Vizualizando o Box model na prática:
@@ -22,3 +25,7 @@ grouping.html | gstyle.css
 3.2 Utilizando pseudoclasses para individualizar elementos
 
 groupnpseudoclass.html | gnpstyle.css
+
+3.3 Combinações e Classes Descendentes
+
+combdescent.html | combdescent.css
