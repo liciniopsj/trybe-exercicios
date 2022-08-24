@@ -1,10 +1,8 @@
-function checkPalindrome(name){ //1
-    let splitted = name.split("");
+function checkPalindrome(word){ //1
+    let splitted = word.split("");
     let reversed = splitted.reverse();
     let rejoined = reversed.join("");
-    if (name === rejoined){
-        return true;
-    }
+    if (word === rejoined) return true;
     return false;
 
 }
@@ -121,6 +119,18 @@ function sumOfNNumbers(n){ //6
 return stylishlog + sum;
 }
 
-let numberOfSums = 5
+let numberOfSums = 10
 console.log('');
 console.log(sumOfNNumbers(numberOfSums));
+
+// function checkEndOfWord(word, ending){
+//     let check = 0;
+//     word = word.reverse('');
+//     ending = ending.reverse('');
+
+//     for (let index of ending){
+//         if(ending[index] === word[index]) check += 1;
+//     }
+//     if(check == )
+
+// }
