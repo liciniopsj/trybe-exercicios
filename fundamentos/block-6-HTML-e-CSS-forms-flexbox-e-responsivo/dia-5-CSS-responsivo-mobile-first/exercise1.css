@@ -10,11 +10,7 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
-  body {
-  
-  }
-  
+ 
   article {
     font-size: x-large;
   }
@@ -23,22 +19,10 @@
     font-size: 30px;
   }
   
-  h2 {
-  
-  }
-  
   img {
       max-width: 100%;
   }
-  
-  main {
-  
-  }
-  
-  section {
-  
-  }
-  
+ 
   figure {
       margin: 0;
   }
