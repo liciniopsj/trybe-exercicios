@@ -25,6 +25,7 @@
 
 # Ignore code-workspaces
 *.code-workspace
+
 # ignore Node_modules from jest/testing
 **/node_modules
 
