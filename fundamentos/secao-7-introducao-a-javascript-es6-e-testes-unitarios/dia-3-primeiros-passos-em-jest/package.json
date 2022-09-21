@@ -1,0 +1,15 @@
+{
+  "name": "dia-3-primeiros-passos-em-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Licinio Pereira dos Santos Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}

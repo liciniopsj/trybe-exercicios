@@ -25,5 +25,7 @@
 
 # Ignore code-workspaces
 *.code-workspace
+# ignore Node_modules from jest/testing
+**/node_modules
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
