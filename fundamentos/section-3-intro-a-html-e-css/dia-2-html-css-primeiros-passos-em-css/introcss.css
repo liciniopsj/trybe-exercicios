@@ -1,0 +1,36 @@
+h1 {
+    width: 65px;
+    color: orange;
+    font-family: sans-serif;
+    }
+
+  .changebgcolor {
+    background-color: blanchedalmond;
+    }
+  
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  ul {
+    font-style: italic;
+    line-height: 30px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  #bg-y {
+    background-color: yellow;
+  }
+  #bg-r{
+    background-color: red;
+  }
+  #bg-b{
+    background-color: brown;
+  }

@@ -1,0 +1,9 @@
+apple
+black
+blue
+orange
+pink
+red
+strawberry
+white
+yellow

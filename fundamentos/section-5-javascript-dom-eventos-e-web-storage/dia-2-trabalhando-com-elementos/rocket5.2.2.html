@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        const body = document.body;
+        
+        const newTitle = document.createElement('h1');
+        newTitle.innerText = 'Exercício 5.2 - JavaScript DOM';
+
+        body.appendChild(newTitle);//1
+
+        const newMain = document.createElement('main');
+        newMain.className = 'main-content';
+
+        body.appendChild(newMain);//2
+
+        const newSection = document.createElement('section');
+        newSection.className = 'center-content';
+
+        const main = body.getElementsByClassName('main-content')[0];
+        main.appendChild(newSection);//3
+
+        const centerContentSection = body.getElementsByClassName('center-content')[0];
+        const newParagraph = document.createElement('p');
+
+        centerContentSection.appendChild(newParagraph);//4
+
+        const newLeftSection = document.createElement('section');
+        newLeftSection.className = 'left-content';
+
+        main.appendChild(newLeftSection);//5
+
+        const newRightSection = document.createElement('section');
+        newRightSection.className = 'right-content';
+
+        main.appendChild(newRightSection);//6
+
+        const newImg = document.createElement('img');
+        newImg.setAttribute("src", "https://picsum.photos/200");
+        newImg.className = 'small-image';
+
+        const leftContentSection = document.getElementsByClassName('left-content')[0];
+        leftContentSection.appendChild(newImg);//7
+
+        const rightContentSection = document.getElementsByClassName('right-content')[0];
+        const newUL = document.createElement('ul');
+
+        rightContentSection.appendChild(newUL);
+
+        const rightSectionList = document.querySelector('.right-content ul');
+        let numAry = ['um','dois','três','quatro','cinco','seis','sete','oito','nove','dez'];
+
+        for (let index = 0;index < numAry.length; index += 1){
+            let newLi = document.createElement('li');
+            newLi.innerText = numAry[index];
+            rightSectionList.appendChild(newLi);
+        }//8
+
+        for (index = 0; index < 3; index += 1){
+            let newH3 = document.createElement('h3');
+            main.appendChild(newH3);
+        }//9
+
+        let titleH1 = document.querySelector('h1');
+        titleH1.className = 'title';//10
+
+        let h3List = document.querySelectorAll('h3');
+
+        for (let index = 0;index < 3; index += 1){
+            h3List[index].className = 'description';
+        }//11
+
+        main.removeChild(leftContentSection);//12
+
+        document.querySelector('.right-content').setAttribute('margin-right', 'auto');//13
+
+        main.style.backgroundColor = 'green';//14
+
+        let list = document.querySelectorAll('li');
+        
+        list[7].remove();
+        list[8].remove();//15
+
+
+
+    
+
+    </script>
+  </body>
+</html>

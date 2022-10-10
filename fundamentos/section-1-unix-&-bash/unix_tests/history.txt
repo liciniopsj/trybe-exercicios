@@ -1,0 +1,3 @@
+  769  ls
+  770  history
+  771  history | tail -3 > history.txt

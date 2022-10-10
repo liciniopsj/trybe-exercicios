@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1>Header da Página</h1>
+        <div class="form-container">
+            <div id="name-field">
+                <label for="name">Nome: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div id="email-field">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="radio-options">
+                <input type="radio" name="options" id="op1">
+                <label for="op1">Opção 1</label>
+                <input type="radio" name="options" id="op2">
+                <label for="op2"> Opção 2</label>
+                <input type="radio" name="options" id="op3">
+                <label for="op3">Opção 3</label>
+                <input type="radio" name="options" id="op4">
+                <label for="op4">Opção 4</label>
+            </div>
+            <div class="answer-field-container">
+                <p>Espaço para digitar a resposta:</p>
+                <textarea name="answer" id="answerField" cols="30" rows="10"></textarea>
+            </div>
+            <div class="data-field-container">
+                <label for="date">Data: </label>
+                <input type="date" name="date" id="dateField">                
+            </div>
+            <div class="agreedments">
+                <label for="chkbox1">Concordo 1</label>
+                <input type="checkbox" name="agreed1" id="chkbox1">
+                <label for="chkbox2">Concordo 2</label>
+                <input type="checkbox" name="agreed2" id="chkbox2">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
