@@ -1,0 +1,17 @@
+{
+  "name": "my-scripts",
+  "version": "1.0.0",
+  "description": "A series of node exercicises proposed by trybe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bmi": "node ./src/bmi"
+  },
+  "keywords": [],
+  "author": "LPSJ",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
