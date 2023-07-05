@@ -1,5 +1,5 @@
 ﻿class Program {
-  public static void Main(String[] args){
+  public static void Main(){
     int integerVar = 3; // declaring integers
     int integerSum = 2 + 2; // attributing a sum when declaring a integer
 
